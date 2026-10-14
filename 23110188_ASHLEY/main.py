@@ -26,3 +26,4 @@ for i in range(len(dept)):
 
 print(dept)
 print(sum)# sum array contains the average score ineach dept
+print(max)
