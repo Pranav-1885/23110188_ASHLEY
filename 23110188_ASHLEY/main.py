@@ -24,6 +24,17 @@ for i in range(len(dept)):
     sum[i]=sum[i]//1
     sum[i]=sum[i]/100
 
+for j in range(len(dept)):
+  for i in range(len(dept)):
+    if dept[i]<dept[i+1]:
+      tempd=dept[i]
+      tempa=sum[i]
+      tempm=max[i]
+  
+      dept[i]=dept[i+1]
+      sum[i]=sum[i+1]
+      max[i]=max[i+1]
+
 print(dept)
 print(sum)# sum array contains the average score ineach dept
 print(max)
